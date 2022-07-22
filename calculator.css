@@ -1,0 +1,98 @@
+* {
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+
+
+}
+ .dizayn {
+    /* background-image: url(image/img-2021-08-28-16-11-55.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #24146d;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    height: 550px;
+} 
+
+
+
+.knopkalar {
+   padding-top: 2%;
+   margin-top: 5%;
+   padding-left: 5%;
+   border: 2px solid #16e9f2; 
+   height: 418px;
+   border-radius: 15px;
+   width: 35%;
+   box-shadow: 0 0 5px 1px #f4f4f4;
+}
+
+
+.knopkalar button{
+    padding-top: 2px;
+    width: 12%;
+ 
+    height: 49px;
+    background-color: #24146d;
+    color: #16e9f2;
+    border: 1px solid #16e9f2;
+    border-radius: 100%
+}
+
+
+
+
+
+.knopkalar h1{
+color: #16e9f2;
+font-weight: normal;
+width: 65%;
+margin: auto;
+
+}
+
+.knopkalar input{
+  /* margin: 0px  0px  0px  0px ; */
+  width: 80%;
+  height: 35px;
+  margin: auto;
+  border: 1px solid #24146d;;
+  border-bottom: 1px solid #16e9f2;;
+  background-color:#24146d; 
+  outline: none;
+  color: #16e9f2;
+  font-size: 25px;
+  
+}
+/* .barobar button{
+    width: 60%;
+} */
+.dizayn img{
+    max-width: 600px;
+}
+.bottonlar button{
+  
+    margin: 10px;
+}
+.dizayn .barobar {
+    width: 82%;
+    height: 30px;
+    border-radius:10px ;
+    background-color:#16e9f2; 
+    color:#24146d;  
+    font-size: 20px;
+}
+.knopkalar button:hover{
+   background-color:  turquoise;
+    cursor: pointer;
+    color: #24146d;  
+    box-shadow: 0 0 5px 1px #f4f4f4;
+}
+.dizayn .barobar:hover{
+    background-color:  #24146d;
+    cursor: pointer;
+    color: #16e9f2;   
+
+}
